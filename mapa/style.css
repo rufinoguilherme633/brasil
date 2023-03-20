@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+/* 
+#BR-AC {
+    /* pintar nomapa fill
+    fill: tomato;
+}  */
+
+path {
+    fill: #ECCEA7;
+    /* bordass */
+    stroke: #fff;
+    /* borda */
+    stroke-width: 2px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+/* após passar o mouse em cima */
+
+path:hover {
+    fill: #FA9E27;
+}
+
+.dados_Estados {
+    width: 375px;
+    height: 417px;
+    background-color: #ECCEA7;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados_nome {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.sigla {
+    background-color: #FA9E27;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.nome_capital_regiao {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome_capital_regiao .nome {
+    color: #FA9E27;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.capital,
+.regiao {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cidades {
+    background-color: tomato;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.get_dados {
+    width: 80px;
+    height: 20px;
+    background-color: white;
+}
